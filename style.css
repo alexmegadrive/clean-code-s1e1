@@ -112,7 +112,7 @@ input#new-task {
 }
 
 /* Task list */
-li {
+.tasks__list-item {
     overflow: hidden;
     padding: 20px 0;
     border-bottom: 1px solid #eee;
@@ -122,22 +122,22 @@ li {
     align-items: center;
 }
 
-li>* {
+.tasks__list-item>* {
     vertical-align: middle;
 }
 
-li>input[type="checkbox"] {
+.tasks__list-item>input[type="checkbox"] {
     margin: 0 10px;
 }
 
-li>label {
+.tasks__list-item>label {
     padding-left: 10px;
     box-sizing: border-box;
     font-size: 18px;
     width: 226px;
 }
 
-li>input[type="text"] {
+.tasks__list-item>input[type="text"] {
     width: 226px;
 }
 
@@ -158,15 +158,15 @@ li>input[type="text"] {
 }
 
 /* Edit Task */
-ul li input[type=text] {
+.tasks__list-item input[type=text] {
     display: none;
 }
 
-ul .tasks__edit-mode input[type=text] {
+.tasks__list-item--edit-mode  input[type=text] {
     display: inline-block;
     width: 224px;
 }
 
-ul .tasks__edit-mode label {
+.tasks__list-item--edit-mode label {
     display: none;
 }
