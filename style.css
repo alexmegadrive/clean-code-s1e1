@@ -74,7 +74,7 @@ button:hover {
 
 /* Heading */ 
 h3,
-label[for='new-task'] {
+label[for="new-task"] {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -102,7 +102,7 @@ input[type="text"]:focus {
 }
 
 /* New Task */
-label[for='new-task'] {
+label[for="new-task"] {
   display: block;
   margin: 0 0 20px;
 }
@@ -141,13 +141,13 @@ input#new-task {
   width: 226px;
 }
 
-.tasks__delete-btn img {
+.tasks__delete-img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
 
-.tasks__delete-btn img:hover {
+.tasks__delete-img:hover {
   transform: rotateZ(0);
 }
 
