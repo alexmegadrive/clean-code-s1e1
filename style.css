@@ -107,7 +107,7 @@ label[for="new-task"] {
   margin: 0 0 20px;
 }
 
-input#new-task {
+#new-task {
   width: 318px;
 }
 
@@ -152,7 +152,7 @@ input#new-task {
 }
 
 /* Completed */ 
-#completed-tasks label {
+#completed-tasks .tasks__label {
   text-decoration: line-through;
   color: #888;
 }
@@ -167,6 +167,6 @@ input#new-task {
   width: 224px;
 }
 
-.tasks__list-item--edit-mode label {
+.tasks__list-item--edit-mode .tasks__label {
   display: none;
 }
